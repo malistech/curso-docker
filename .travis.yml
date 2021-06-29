@@ -13,8 +13,8 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: 'us-east-2'
-  app: 'cursodocker'
-  env: 'cursodocker-env'
+  app: 'Curso docker'
+  env: 'Cursodocker-env'
   bucket_name: 'elasticbeanstalk-us-east-2-241062728592'
   bucket_path: 'docker'
   on:
